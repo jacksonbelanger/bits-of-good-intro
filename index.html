@@ -4,11 +4,40 @@
 
 <head>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <!-- Your HTML Here -->
 
 <body>
-    <img src="" alt="">
+    <img id="headshot" src="images/jackson_pfp.jpeg" alt="Photo of Jackson">
+    <p id="greeting">👋 Hey! I'm Jackson.</p>
+    <div id="bio-card">
+        <p id="bio">I'm a second-year computer science major, originally from Boston, Massachusetts. Back in high
+            school, I created a band that teaches students with disabilities how to play music. I helped teach 15
+            disabled students musical instruments, which was one of the coolest, most fulfilling experiences in my
+            life.<br><br>
+            Then, over the past two years, I've worked as a software developer for a nonprofit called Tree-Plenish,
+            which is an organization that works with schools across the country to host community tree-planting events.
+            Specifically, I worked on the mobile app interface for volunteers and event hosts.
+            <br><br>
+            I've always loved using my skills to help others. Now, I'm looking forward to using my interest in
+            engineering software to help out local nonprofits as much as possible, alongside the Bits of Good
+            team.
+        </p>
+    </div>
+    <div id="hover-me-container">
+        <img id="arrow-up" src="images/arrow_up.png" alt="arrow-pointing-up">
+        <p id="hover-me">Hover me!</p>
+    </div>
+    <button
+        onclick="location.href='mailto:jacksonbelanger@gatech.edu?subject=Bits%20of%20Good%20Introduction&body=Nice%20website'">
+        Get in Touch&nbsp;&nbsp;<i class="fa-solid fa-chevron-right"></i>
+    </button>
 </body>
 
 </html>

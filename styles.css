@@ -1,7 +1,84 @@
 /* Your Styles Here */
-body{
+body {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #151b29;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+
+#headshot {
+    height: 15%;
+    width: 15%;
+    border-radius: 100%;
+    display: block;
+    margin-top: 5%;
+}
+
+#greeting {
+    font-size: 30px;
+}
+
+#bio-card {
+    background-color: #282d39;
+    width: 90%;
+    max-width: 800px;
+    height: 50%;
+    transition: transform 0.25s, box-shadow 0.25s, background-color 0.25s;
+}
+
+#bio-card:hover {
+    box-shadow: 0 20px 20px -16px #82a7fd;
+    transform: translateY(-10px);
+    background-color: #2b3753;
+}
+
+#bio {
+    padding: 20px 40px;
+    font-size: 19px;
+    line-height: 130%;
+    font-weight: 300;
+}
+
+#arrow-up {
+    vertical-align: top;
+    width: 20px;
+    margin-right: 2px;
+}
+
+#hover-me {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 14px;
+    font-size: 18px;
+}
+
+#hover-me-container {
+    display: inline-block;
+    margin-top: 14px;
+    margin-left: 850px;
+}
+
+button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 15px 30px;
+    font-size: 15px;
+    transition: color 0.25s, border-color 0.25s, background-color 0.25s;
+    /* border-top: 2px solid #fff;
+    border-left: 2px solid #fff; */
+}
+
+button:hover {
+    background-color: #fff;
+    /* border: 2px solid #fff; */
+    color: #282d39;
+    cursor: pointer;
 }
