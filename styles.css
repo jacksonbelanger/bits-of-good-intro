@@ -51,14 +51,15 @@ body {
 #hover-me {
     vertical-align: top;
     display: inline-block;
-    margin-top: 14px;
+    margin-top: 10px;
     font-size: 18px;
+    font-family: "Playwrite AU NSW", cursive;
 }
 
 #hover-me-container {
     display: inline-block;
     margin-top: 14px;
-    margin-left: 850px;
+    margin-left: 52%;
 }
 
 button {
