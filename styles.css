@@ -83,3 +83,26 @@ button:hover {
     color: #282d39;
     cursor: pointer;
 }
+
+.footer-link {
+    color: white;
+}
+
+#icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+#linkedin-icon {
+    font-size: 55px;
+}
+
+#resume-icon {
+    font-size: 50px;
+}
+
+#github-icon {
+    font-size: 53px;
+}
